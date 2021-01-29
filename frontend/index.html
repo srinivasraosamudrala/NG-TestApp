@@ -1,0 +1,25 @@
+<html ng-app = "app">
+   <head>
+      <title>Green Ninja Sample</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   </head>
+   
+   <body ng-controller="sampleController">
+      <center>
+         <h1>Green Ninja Sample Form</h1>
+         
+         <div>
+            <p class="my-5">Name: <input type = "text" ng-model = "name"></p>
+            <button type="submit" class="btn btn-primary" ng-click="onSubmit()">Submit</button>
+
+            <p>{{response}}</p>
+         </div>
+
+      </center>
+      
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+      </script>
+      <script src="./js/app.module.js"></script>
+      
+   </body>
+</html>

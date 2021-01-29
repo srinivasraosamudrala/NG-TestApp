@@ -1,0 +1,21 @@
+{
+  "name": "green_sample",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Sample green ninja",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.7.x",
+    "angular-animate": "1.7.x",
+    "angular-resource": "1.7.x",
+    "angular-route": "1.7.x",
+    "bootstrap": "3.3.x",
+    "jquery": "3.3.x"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "start": "http-server ./ -a 127.0.0.1 -p 3000 -c-1"
+  }
+}
