@@ -17,7 +17,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/registration', (req, res) => {
-    // console.log(req.body)
     res.status(200).send({
         users: req.body.username,
         count:req.body.count+1

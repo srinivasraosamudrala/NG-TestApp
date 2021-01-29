@@ -15,7 +15,7 @@ angular.module("app", [])
             }
             $http({
                 method: 'POST',
-                url: 'http://127.0.0.1:3001/registration',
+                url: 'http://18.219.36.140:3001/registration',
                 data: $scope.data,
                 headers: { 'Content-Type': 'application/json' }
             }).then((response) => {
