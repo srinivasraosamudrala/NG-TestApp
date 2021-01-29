@@ -1,0 +1,41 @@
+body {
+    background: #e2e1e0;
+    text-align: center;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 200px;
+    margin: 1rem;
+    position: relative;
+    width: 500px;
+  }
+
+.app-container{
+    padding-top: 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.float-container {
+    padding: 20px;
+    margin-left: 5%;
+}
+
+.float-child {
+    float: left;
+    padding: 20px;
+}
+
+.text-custom{
+    padding-top: 5px;
+}
+
+.users{
+    margin-top: 20px;
+}
+
+.count{
+    font-size:1000%;
+}
