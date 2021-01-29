@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 //Allow Access Control
 app.use(function (req, res, next) {
-    // res.setHeader('Access-Control-Allow-Origin', 'http://35.222.186.147:8080');
+    // res.setHeader('Access-Control-Allow-Origin', 'http://18.219.36.140:8080');
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     res.setHeader('Access-Control-Allow-Credentials', 'true');

@@ -10,7 +10,7 @@ angular.module("app", [])
             $http({
                 method: 'POST',
                 // url: 'http://127.0.0.1:3001/submitForm',
-                url: 'http://35.222.186.147/submitForm',
+                url: 'http://18.219.36.140:3001/submitForm',
                 data: $scope.data,
                 headers: { 'Content-Type': 'application/json' }
             }).then(function mySuccess(response) {
