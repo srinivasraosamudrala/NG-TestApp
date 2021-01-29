@@ -6,8 +6,10 @@ angular.module("app", [])
         $scope.error = "";
         
         $scope.Registration = () => {
-            if($scope.username == "" || $scope.username == $scope.users){
+            if($scope.username == ""){
                 $scope.error = "Enter proper name"
+            }else if($scope.username == $scope.users){
+                $scope.error = "Enter different name"
             }else{
             $scope.data = {
                 username: $scope.username,
